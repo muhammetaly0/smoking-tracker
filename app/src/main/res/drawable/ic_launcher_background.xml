@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Okyanus gradient arka plan -->
+    <path android:pathData="M0,0 L108,0 L108,108 L0,108 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="radial"
+                android:centerX="54"
+                android:centerY="54"
+                android:gradientRadius="80">
+                <item android:offset="0.0" android:color="#1E4A70"/>
+                <item android:offset="0.55" android:color="#0A2742"/>
+                <item android:offset="1.0" android:color="#030B1C"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Yatay açık vurgu çizgisi (su yüzeyi) -->
+    <path android:pathData="M0,40 L108,40 L108,44 L0,44 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="42"
+                android:endX="108"
+                android:endY="42">
+                <item android:offset="0.0" android:color="#004FC3F7"/>
+                <item android:offset="0.5" android:color="#404FC3F7"/>
+                <item android:offset="1.0" android:color="#004FC3F7"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

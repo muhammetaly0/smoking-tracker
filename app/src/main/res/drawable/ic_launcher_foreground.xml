@@ -1,0 +1,128 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- SOL PARÇA (yatay) -->
+    <!-- Gövde (beyaz) -->
+    <path
+        android:pathData="M22,48 L54,48 L54,58 L22,58 Z"
+        android:fillColor="#FFFFFF"/>
+
+    <!-- Filtre (sol uç, kahve-sarı) -->
+    <path
+        android:pathData="M22,48 L32,48 L32,58 L22,58 Z"
+        android:fillColor="#C9A26B"/>
+
+    <!-- Filtre/gövde ayırıcı -->
+    <path
+        android:pathData="M32,48 L32,58"
+        android:strokeColor="#7A5C32"
+        android:strokeWidth="0.7"/>
+
+    <!-- Filtre dokusu (dikey çizgiler) -->
+    <path
+        android:pathData="M25,49.5 L25,56.5"
+        android:strokeColor="#A98654"
+        android:strokeWidth="0.4"/>
+    <path
+        android:pathData="M27.5,49.5 L27.5,56.5"
+        android:strokeColor="#A98654"
+        android:strokeWidth="0.4"/>
+    <path
+        android:pathData="M30,49.5 L30,56.5"
+        android:strokeColor="#A98654"
+        android:strokeWidth="0.4"/>
+
+    <!-- Sol parça gövde içinde gölge çizgisi -->
+    <path
+        android:pathData="M32,57 L54,57"
+        android:strokeColor="#D9D9D9"
+        android:strokeWidth="0.5"/>
+
+    <!-- Tütün dolu kırık uç (sağ taraf) -->
+    <path
+        android:pathData="M50,48 L54,48 L54,58 L50,58 Z"
+        android:fillColor="#6B4423"
+        android:fillAlpha="0.55"/>
+
+    <!-- Kırık çentikleri sol parça -->
+    <path
+        android:pathData="M54,48 L52,50 L54,52 L52,54 L54,56 L52,58 L54,58"
+        android:strokeColor="#3E2723"
+        android:strokeWidth="0.7"
+        android:fillColor="#00000000"/>
+
+    <!-- SAĞ PARÇA (eğik, kırılmış) -->
+    <group
+        android:pivotX="72"
+        android:pivotY="66"
+        android:rotation="25">
+
+        <!-- Gövde (beyaz) -->
+        <path
+            android:pathData="M58,60 L88,60 L88,72 L58,72 Z"
+            android:fillColor="#FFFFFF"/>
+
+        <!-- Gövde gölgesi -->
+        <path
+            android:pathData="M58,71 L88,71"
+            android:strokeColor="#D9D9D9"
+            android:strokeWidth="0.5"/>
+
+        <!-- Yanmış uç (sağda, koyu kömür) -->
+        <path
+            android:pathData="M82,60 L88,60 L88,72 L82,72 Z"
+            android:fillColor="#2B1A0E"/>
+
+        <!-- Kor (turuncu-kırmızı orta) -->
+        <path
+            android:pathData="M83,63 L87,63 L87,69 L83,69 Z"
+            android:fillColor="#FF6F00"/>
+        <path
+            android:pathData="M84,65 L86,65 L86,67 L84,67 Z"
+            android:fillColor="#FFC107"/>
+
+        <!-- Tütün dolu kırık uç (sol taraf) -->
+        <path
+            android:pathData="M58,60 L62,60 L62,72 L58,72 Z"
+            android:fillColor="#6B4423"
+            android:fillAlpha="0.55"/>
+
+        <!-- Kırık çentikleri sağ parça -->
+        <path
+            android:pathData="M58,60 L60,62 L58,64 L60,66 L58,68 L60,70 L58,72"
+            android:strokeColor="#3E2723"
+            android:strokeWidth="0.7"
+            android:fillColor="#00000000"/>
+    </group>
+
+    <!-- Dağılan tütün parçacıkları (iki parça arası) -->
+    <path
+        android:pathData="M55.5,46 L56.5,45 L57.5,46 L57,47 Z"
+        android:fillColor="#8D6E63"/>
+    <path
+        android:pathData="M58,50 L59,49 L60,50 L59,51 Z"
+        android:fillColor="#A1887F"/>
+    <path
+        android:pathData="M56,60 L57,59 L58,60 L57,61 Z"
+        android:fillColor="#8D6E63"/>
+    <path
+        android:pathData="M60,55 L61,54.2 L61.8,55 L61,55.8 Z"
+        android:fillColor="#6D4C41"/>
+    <path
+        android:pathData="M53,52 L53.7,51.3 L54.4,52 L53.7,52.7 Z"
+        android:fillColor="#8D6E63"/>
+
+    <!-- Hafif duman bulutu (sağ üst, yanmış uçtan) -->
+    <path
+        android:pathData="M88,42 q3,-4 6,-2 q2,-3 5,0 q3,2 0,5 q-3,3 -7,1 q-4,1 -4,-4 Z"
+        android:fillColor="#E0E0E0"
+        android:fillAlpha="0.25"/>
+    <path
+        android:pathData="M90,32 q2,-3 5,-1 q2,2 0,4 q-2,2 -5,0 Z"
+        android:fillColor="#E0E0E0"
+        android:fillAlpha="0.18"/>
+
+</vector>

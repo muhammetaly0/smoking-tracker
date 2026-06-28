@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Sigara Takip</string>
+
+    <string name="streak_label">SERİ</string>
+    <string name="day_unit">gün</string>
+    <string name="best_streak">En İyi Seri</string>
+    <string name="total_days">Toplam Başarılı Gün</string>
+    <string name="check_in_main">Bugünü İşaretle</string>
+    <string name="check_in_done">Bugün ✓</string>
+    <string name="check_in_locked">19:00 sonrası açılır</string>
+    <string name="already_checked_in">Bugün zaten işaretledin!</string>
+    <string name="too_early">Saat 19:00\'dan önce işaretleyemezsin</string>
+    <string name="check_in_success">Harika! Serine bir gün daha eklendi 🎉</string>
+
+    <string name="relapse_button">Sigara İçtim</string>
+    <string name="relapse_dialog_title">Sigara içtin mi?</string>
+    <string name="relapse_dialog_msg">Bu butona basarsan serin sıfırlanacak ve bildirimler duracak. Tekrar başlamak için \"Bugünü İşaretle\"ye bas.</string>
+    <string name="relapse_dialog_confirm">Evet, içtim</string>
+    <string name="relapse_dialog_cancel">Vazgeç</string>
+    <string name="relapse_recorded">Önemli olan vazgeçmemek. Yeniden başla.</string>
+
+    <string name="last_check_in">Son işaretleme</string>
+    <string name="never">Henüz yok</string>
+    <string name="notifications_paused">Bildirimler duraklatıldı — butona basınca yeniden başlar</string>
+
+    <string name="saved_money">Tasarruf</string>
+    <string name="saved_money_unit">TL</string>
+
+    <string name="calibration_title">Önce birkaç bilgi</string>
+    <string name="calibration_desc">Tasarrufunu hesaplayabilmem için sigara alışkanlığını bilmem gerek.</string>
+    <string name="calibration_days_label">Kaç günde</string>
+    <string name="calibration_packs_label">Kaç paket</string>
+    <string name="calibration_price_label">Paket fiyatı (TL)</string>
+    <string name="calibration_hint">Örn: 1 günde 1 paket, paket 110 TL</string>
+    <string name="calibration_confirm">Başla</string>
+    <string name="calibration_cancel">Vazgeç</string>
+    <string name="calibration_invalid">Lütfen geçerli sayılar gir</string>
+
+    <string name="notif_channel_name">Hatırlatıcılar</string>
+    <string name="notif_channel_desc">Günlük işaretleme hatırlatmaları</string>
+    <string name="notif_title">Bugünü işaretlemeyi unutma!</string>
+    <string name="notif_body">Serini bozma, butona basmayı unutma 💪</string>
+</resources>
